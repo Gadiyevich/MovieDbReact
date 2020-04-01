@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin-top: 30px;
+	text-align: center;
+	font-size: 23px;
+	font-family: 'Bebas Neue', cursive;
+	background: linear-gradient( to right, #c91111 0%, #c91111 50%, #e6e204 50%, #e6e204 100%);
+	width: 1500px;
+}
+
+.search {
+	margin-top: 12px;
+}
+
+.error {
+	margin-top: 250px;
+	font-size: 70px;
+	color: #ccc;
+	background: #000;
+}
+
+input[type=text] {
+	width: 350px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 8px;
+	font-size: 16px;
+	background-color: white;
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	padding: 12px 20px 12px 40px;
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	outline: none;
+	margin-top: 10px;
+}
+
+input[type=text]:focus {
+	width: 60%;
+}
+
+.results {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	margin-right: 100px;
+	margin-left: 140px;
+	padding-left: 90px;
+	padding-right: 90px;
+	color: #ffffff;
+}
+
+.result {
+	width: 32%;
+	margin-top: 30px;
+}
+
+.result img {
+	cursor: pointer;
+}
+
+.popup {
+	background: rgba(151, 137, 137, 0);
+}
+
+.button5 {
+	background-color: white;
+	color: black;
+	border: 2px solid #555555;
+	border: none;
+	padding: 12px 29px;
+	border-radius: 7px;
+	margin-left: 50px;
+	outline: none;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background: transparent;
+	border: none !important;
+}
+
+.button5:hover {
+	background-color: #030d69;
+	color: white;
+}
+
+.results {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.popup {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	background-color: #000;
+	height: 100vh;
+	overflow-y: scroll;
+}
+
+.popup .content {
+	display: block;
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 25px;
+	color: #FFF;
+}
+
+.popup .content h2 {
+	font-size: 28px;
+	font-weight: 600;
+}
+
+.popup .content .close {
+	display: inline-block;
+	padding: 15px 23px;
+	font-size: 18px;
+	font-weight: 700;
+	background: rgb(0, 0, 0);
+	color: #FFF;
+	border-radius: 8px;
+	border: none;
+	outline: none;
+	appearance: none;
+	cursor: pointer;
+	transition: 0.4s ease-out;
+	margin-top: 20px;
+}
+
+.popup .content .close:hover {
+	background: #ffffff;
+	color: #000;
+}
