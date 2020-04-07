@@ -66,6 +66,7 @@ input[type=text]:focus {
 
 .popup {
 	background: rgba(151, 137, 137, 0);
+	background: linear-gradient( to right, #1191c4 0%, #07a5b9 50%, #e6e204 50%, #e6e204 100%);
 }
 
 .button5 {
