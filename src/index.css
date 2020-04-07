@@ -8,8 +8,8 @@ body {
 	margin-top: 30px;
 	text-align: center;
 	font-size: 23px;
-	font-family: 'Bebas Neue', cursive;
-	background: linear-gradient( to right, #c91111 0%, #c91111 50%, #e6e204 50%, #e6e204 100%);
+	font-family: 'Bebas Neue', sans-serif;
+	background: linear-gradient( to right, #ac0404 0%, #e90505 50%, #fffb00 50%, #bebb08 100%);
 	width: 1500px;
 }
 
@@ -53,6 +53,7 @@ input[type=text]:focus {
 	padding-left: 90px;
 	padding-right: 90px;
 	color: #ffffff;
+	margin-bottom: 40px;
 }
 
 .result {
@@ -66,7 +67,7 @@ input[type=text]:focus {
 
 .popup {
 	background: rgba(151, 137, 137, 0);
-	background: linear-gradient( to right, #1191c4 0%, #07a5b9 50%, #e6e204 50%, #e6e204 100%);
+	background: linear-gradient( to right, rgb(6, 193, 250) 0%, #007483 50%, #fffb05 50%, #949204 100%);
 }
 
 .button5 {
