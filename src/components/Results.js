@@ -5,7 +5,7 @@ import Result from './Result'
 function Results({ results, openPopup }) {
 
 	const handleImage = (e) => {
-		e.target.src = 'https://www.galamedianews.com/photo/share/no-image-300x400.jpg'
+		e.target.src = 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLbrFDVFpFny8ur3undAnHk8Zg2VOEVqXoaw&usqp=CAU'
 	}
 	return (
 		<section className="results">
